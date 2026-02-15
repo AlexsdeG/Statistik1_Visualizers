@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bayes Trainer
 
-# Run and deploy your AI Studio app
+Interactive trainer for understanding and applying **Bayes' Theorem** in the context of Statistik 1.
 
-This contains everything you need to run your app locally.
+![Screenshot](./Bayes_Screenshot.png)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1wtjuICnx8mlGNUfTw5qed96W3Zu6JkXQ
+## Features
 
-## Run Locally
+- **Step-by-Step Guidance**: Learn how to calculate posterior probabilities from prior probabilities and likelihoods.
+- **Interactive Scenarios**: Practice with various statistical problems commonly found in introductory statistics courses.
+- **Immediate Feedback**: Get instant verification of your calculations to improve learning.
+- **Multilingual Support**: Available in German and English.
 
-**Prerequisites:**  Node.js
+## Concepts Covered
 
+- Conditional Probabilities $P(A|B)$
+- Prior Probabilities $P(A)$
+- Likelihoods $P(B|A)$
+- Posterior Probabilities $P(A|B)$
+- Law of Total Probability
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (Version 18 or higher recommended)
+- `pnpm` (or `npm`/`yarn`)
+
+### Installation
+
+1. Navigate to the app directory:
+   ```bash
+   cd apps/bayes-trainer
+   ```
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+3. Run the development server:
+   ```bash
+   pnpm dev
+   ```
+
+## Tech Stack
+
+- **React**: UI Framework
+- **TypeScript**: Type-safe development
+- **Vite**: Modern build tool
+- **Tailwind CSS**: Styling
+- **Vitest**: Unit testing

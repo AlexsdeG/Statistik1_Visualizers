@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CLT Simulator (Central Limit Theorem)
 
-# Run and deploy your AI Studio app
+A visual simulation tool to demonstrate the **Central Limit Theorem**, a fundamental concept in Statistik 1.
 
-This contains everything you need to run your app locally.
+![Screenshot](./CLT_Screenshot.png)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Xv8yn_woyXdso_Et07Ky4mCMLVK3ye4Y
+## Features
 
-## Run Locally
+- **Distribution Selection**: Choose from various population distributions (Uniform, Normal, Exponential, etc.).
+- **Interactive Sampling**: Adjust sample sizes ($n$) and number of samples to see how the sampling distribution of the mean evolves.
+- **Real-time Visualization**: Watch the distribution of sample means converge to a normal distribution as $n$ increases.
+- **Statistical Parameters**: Compare population parameters with sample statistics.
 
-**Prerequisites:**  Node.js
+## Concepts Covered
 
+- Population Distribution vs. Sampling Distribution
+- Mean ($\mu$) and Variance ($\sigma^2$)
+- Sample size effect on the standard error of the mean
+- Convergence to Normality (regardless of the original distribution shape)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (Version 18 or higher recommended)
+- `pnpm` (or `npm`/`yarn`)
+
+### Installation
+
+1. Navigate to the app directory:
+   ```bash
+   cd apps/stats-clt-simulator
+   ```
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+3. Run the development server:
+   ```bash
+   pnpm dev
+   ```
+
+## Tech Stack
+
+- **React**: UI Framework
+- **TypeScript**: Type-safe development
+- **Vite**: Modern build tool
+- **Tailwind CSS**: Styling
+- **Recharts** (or similar): Data visualization for histograms and charts

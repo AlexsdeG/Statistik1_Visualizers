@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Lorenz Constructor
 
-# Run and deploy your AI Studio app
+An interactive tool for constructing and analyzing **Lorenz Curves**, a key measure of inequality in Statistik 1.
 
-This contains everything you need to run your app locally.
+![Screenshot](./Lorenz_Screenshot.png)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1-oNSDptveOjgpXeZO8FkrYgfi8PFHRTh
+## Features
 
-## Run Locally
+- **Data Input**: Add and adjust data points to see how they impact the distribution of wealth or resources.
+- **Dynamic Visualization**: Real-time rendering of the Lorenz curve based on the current data.
+- **Automated Calculations**: Instantly see the calculated **Gini Coefficient** and other inequality metrics.
+- **Interactive Points**: Drag and drop or edit values directly to see immediate visual feedback.
+- **Multilingual Support**: Available in German (DE) and English (EN).
 
-**Prerequisites:**  Node.js
+## Concepts Covered
 
+- Lorenz Curve
+- Cumulative Share of Population vs. Cumulative Share of Value
+- Line of Perfect Equality
+- Gini Coefficient (Area calculation)
+- Concentration and Inequality measures
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (Version 18 or higher recommended)
+- `pnpm` (or `npm`/`yarn`)
+
+### Installation
+
+1. Navigate to the app directory:
+   ```bash
+   cd apps/stats-lorenz-constructor
+   ```
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+3. Run the development server:
+   ```bash
+   pnpm dev
+   ```
+
+## Tech Stack
+
+- **React**: UI Framework
+- **TypeScript**: Type-safe development
+- **Vite**: Modern build tool
+- **Tailwind CSS**: Styling
+- **Recharts / SVG**: Custom rendering for the Lorenz curve plot
