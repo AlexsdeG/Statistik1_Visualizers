@@ -1,0 +1,5 @@
+{
+  "name": "Stats Correlation Guesser",
+  "description": "A dual-mode app to train visual intuition for Pearson's correlation coefficient and explore linear regression.",
+  "requestFramePermissions": []
+}

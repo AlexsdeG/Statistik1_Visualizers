@@ -1,0 +1,5 @@
+{
+  "name": "stats-clt-simulator",
+  "description": "A simulation tool for the Central Limit Theorem (Zentraler Grenzwertsatz).",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,5 @@
+{
+  "name": "stats-distribution-zoo",
+  "description": "An interactive explorer for statistical distributions visualizing PMF and PDF.",
+  "requestFramePermissions": []
+}

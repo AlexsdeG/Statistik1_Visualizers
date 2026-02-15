@@ -1,0 +1,5 @@
+{
+  "name": "stats-lorenz-constructor",
+  "description": "An interactive playground to construct Lorenz curves and visualize the Gini coefficient.",
+  "requestFramePermissions": []
+}

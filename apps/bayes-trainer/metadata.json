@@ -1,0 +1,5 @@
+{
+  "name": "Bayes Trainer",
+  "description": "An interactive tool to visualize conditional probabilities and the Base Rate Fallacy.",
+  "requestFramePermissions": []
+}
